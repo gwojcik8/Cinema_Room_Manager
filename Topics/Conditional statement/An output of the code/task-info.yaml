@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: None of these
+- text: val &lt; 20
+- text: 20 &lt;= val &lt; 50
+- text: val &gt;= 50
+- text: val = 10
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/1980#comment
+status: Solved
+record: -1
+local_check: false
